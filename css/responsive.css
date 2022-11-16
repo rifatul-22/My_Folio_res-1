@@ -1,0 +1,291 @@
+@media (min-width: 1400px){}
+@media (min-width: 1200px) and (max-width: 1399.98px){}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* banner section  */
+    #banner {
+        height: 650px;
+    }
+    #banner .banner_content h4 {
+        font-size: 27px;
+    }
+    #banner .banner_content h1 {
+        font-size: 58px;
+        letter-spacing: 18px;
+    }
+    #banner .banner_content p {
+        font-size: 16px;
+    }
+    #banner .banner_content a {
+        font-size: 12px;
+        padding: 12px 28px;
+        letter-spacing: 3px;
+    }
+    #banner .banner_content img {
+        margin: 45px auto;
+    }
+    /* About section  */
+    #about {
+        padding: 76px 0;
+    }
+    #about .about_iteam h4 {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+    /* service section  */
+    #service .section_info p {
+        line-height: 2;
+        width: 410px;
+    }
+    /* contact section  */
+    #contact .contact_form button {
+        margin-top: 54px;
+        font-size: 15px;
+        font-weight: 800;
+        padding: 11px 32px;
+        letter-spacing: 3px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* banner section  */
+    #banner {
+        height: 600px;
+    }
+    #banner .banner_content h1{
+        font-size: 44px;
+        letter-spacing: 11px;
+    }
+    #banner .banner_content h4{
+        font-size: 22px;
+    }
+    #banner .banner_content p{
+        font-size: 15px;
+    }
+    #banner .banner_content img {
+        margin: 36px auto;
+    }
+    #banner .banner_content a {
+        font-size: 12px;
+        padding: 10px 28px;
+        letter-spacing: 2px;
+    }
+    /* about section  */
+    #about {
+        padding: 50px 0;
+    }
+    #about .section_info{
+        margin-bottom: 40px;
+    }
+    #about .about_iteam:nth-child(2n){
+        border-right: none;
+    }
+    /* service section  */
+    #service{
+        background: inherit;
+        padding: 6px 0;
+    }
+    #service .section_info p {
+        line-height: 2.5;
+        width: 709px;
+    }
+    /* my work  */
+    #my_work {
+        padding: 50px;
+    }
+    /* contact  */
+    #contact .contact_form button {
+        font-size: 14px;
+        padding: 13px 28px;
+        letter-spacing: 4px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* banner section  */
+    #banner {
+        height: 450px;
+    }
+    #banner .banner_content h4 {
+        font-size: 18px;
+    }
+    #banner .banner_content h1 {
+        font-size: 32px;
+        letter-spacing: 10px;
+    }
+    #banner .banner_content p {
+        font-size: 13px;
+    }
+    #banner .banner_content img {
+        margin: 31px auto;
+    }
+    #banner .banner_content a {
+        font-size: 10px;
+        padding: 11px 20px;
+        letter-spacing: 1px;
+    }
+    /* about section  */
+    #about {
+        padding: 38px 0;
+    }
+    #about .section_info h2 {
+        font-size: 42px;
+    }
+    #about .section_info p {
+        margin: 20px 0;
+    }
+    #about .section_info p {
+        font-size: 17px;
+    }
+    #about .section_info{
+        margin-bottom: 40px;
+    }
+    #about .about_iteam:nth-child(2n){
+        border-right: none;
+    }
+    #about .about_iteam {
+        padding: 10px 38px;
+    }
+    /* service section  */
+    #service{
+        background: inherit;
+        padding: 6px 0;
+    }
+    #service .section_info p {
+        line-height: 2;
+        width: 480px;
+    }
+    #service .row .service_iteam p {
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    /* My Work section */
+    #my_work {
+        padding: 30px;
+    }
+    /* contact section  */
+    #contact .contact_form button {
+        margin-top: 38px;
+        font-size: 12px;
+        padding: 10px 20px;
+        letter-spacing: 2px;
+        margin-bottom: 46px;
+    }
+    /* footer section  */
+    #footer{
+        padding: 30px;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+}
+@media (max-width: 575.98px){
+    /* banner section  */
+    #banner {
+        height: 230px;
+    }
+    #banner .banner_content h4 {
+        font-size: 13px;
+    }
+    #banner .banner_content h1 {
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+    #banner .banner_content p {
+        font-size: 8px;
+    }
+    #banner .banner_content img {
+        margin: 8px auto;
+        width: 50px;
+    }
+    #banner .banner_content a {
+        font-size: 7px;
+        padding: 5px 6px;
+        letter-spacing: 1px;
+    }
+    /* about section  */
+    #about {
+        padding: 20px 0;
+    }
+    #about .section_info h2 {
+        font-size: 33px;
+    }
+    #about .section_info p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    #about .section_info p b{
+        font-size: 16px;
+    }
+    #about .about_iteam{
+        border-right: none;
+        padding: 15px 79px;
+    }
+    #about .section_info{
+        margin-bottom: 20px;
+    }
+    #about .about_iteam i {
+        font-size: 30px;
+    }
+    #about .about_iteam h4 {
+        font-size: 24px;
+        padding: 22px 0;
+    }
+    #about .about_iteam p {
+        font-size: 15px;
+    }
+    /* service section  */
+    #service{
+        background: inherit;
+        padding: 6px 0;
+    }
+    #service .section_info h2 {
+        font-size: 40px;
+    }
+    #service .section_info p {
+        font-size: 15px;
+        width: 325px;
+    }
+    #service .row .service_iteam h4 {
+        font-size: 23px;
+    }
+    #service .row .service_iteam p {
+        width: 327px;
+        font-size: 19px;
+    }
+    /* My Work section */
+    #my_work {
+        padding: 18px 0;
+    }
+    #my_work .section_info h2 {
+        font-size: 22px;
+    }
+    #my_work .section_info p {
+        font-size: 15px;
+    }
+    /* contact section  */
+    #contact .section_info h2 {
+        font-size: 31px;
+    }
+    #contact .section_info p {
+        font-size: 13px;
+    }
+    #contact .contact_form{
+        margin-top: 30px;
+    }
+    #contact .contact_form input{
+        font-size: 12px;
+    }
+    #contact .contact_form textarea{
+        font-size: 12px;
+    }
+    #contact .contact_form button {
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 12px 21px;
+        letter-spacing: 2px;
+        margin-bottom: 44px;
+    }
+    /* footer section  */
+    #footer {
+        padding: 30px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 70px;
+    }
+}
